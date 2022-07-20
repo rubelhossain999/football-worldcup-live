@@ -232,3 +232,52 @@ Main Section Style
     border-radius: 10px;
     cursor: pointer;
 }
+/*===========================
+    Upcoming Match Style 
+ ===========================*/
+ .upcoming-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.upcomming-blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    grid-gap: 24px;
+}
+.upcomming-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.upcomming-info h2 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #161616;
+}
+.upcomming-info p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #4D4D4D;
+}
+.upcomming-s-blog {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 30px;
+}
+.upcomming-img span {
+    margin: 15px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161616;
+}

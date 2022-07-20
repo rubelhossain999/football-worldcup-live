@@ -114,6 +114,17 @@
         font-size: 18px;
         line-height: 45px;
     }
+    /*===========================
+    Upcoming Match Style 
+ ===========================*/
+ .upcoming-section{
+    display: block;
+ }
+ .upcomming-blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 50px;
+}
 }
 
  
@@ -189,4 +200,15 @@
     .footer {
         margin-top: 50px;
     }
+/*===========================
+    Upcoming Match Style 
+ ===========================*/
+ .upcoming-section{
+    display: block;
+ }
+ .upcomming-blog {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 50px;
+}
 }
