@@ -171,3 +171,6 @@ Main Section Style
     padding: 2px 15px;
     cursor: pointer;
 }
+.view-all-btn {
+    display: none;
+}

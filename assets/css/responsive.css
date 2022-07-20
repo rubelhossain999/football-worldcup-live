@@ -1,13 +1,17 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
-
+    .view-all-btn {
+        display: none;
+    }
 
 }
 
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-
+    .view-all-btn {
+        display: none;
+    }
 
 }
 
@@ -84,6 +88,25 @@
     }
     .active a{
         margin-right: 0px !important;
+    }
+    .single-blog.last-blog {
+        display: none;
+    }
+    .view-all-btn {
+        display: grid;
+        justify-items: end;
+    }
+    .view-all-btn a button {
+        background: #DD0000;
+        border-radius: 5px;
+        border: none;
+        color: #fff;
+        padding: 13px 35px;
+        margin-bottom: 130px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
     }
 }
 
