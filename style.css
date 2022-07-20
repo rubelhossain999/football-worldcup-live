@@ -174,3 +174,12 @@ Main Section Style
 .view-all-btn {
     display: none;
 }
+
+/* ---------------- 
+    Footer Style
+-------------------*/
+.footer {
+    background: #161616;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
