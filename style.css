@@ -55,9 +55,119 @@ button.btn {
     color: #FFFFFF;
     cursor: pointer;
 }
+button.btn:hover {
+    background: #fff;
+    color: #222;
+    transition: .6s;
+}
 .banner-left img {
     width: 100%;
     height: 584px;
     margin-bottom: -38px;
 }
+/* -------------
+Main Section Style
+------------- */
+.b-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: start;
+}
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 10px;
+    color: #161616;
+}
+.comment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 10px;
+    color: #161616;
+}
+.blog-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    grid-column-gap: 24px;
+}
+.main-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.single-blog h2 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #161616;
+}
+.single-blog {
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+.single-blog:hover {
+    box-shadow: 0 0 5px 4px #ff1d1d30;
+    transition: .3s;
+}
+.blog-details {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.blog-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+/* right Side */
+.sidebar-menu ul {
+    list-style: none;
+}
+.sidebar-menu {
+    background: #161616;
+    border-radius: 10px;
+    margin-right: 24px;
+}
+.sidebar-menu ul li a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #161616;
+    margin: 22px 0;
+    display: block;
+    background: #fff;
+    margin-right: 45px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
 
+.sidebar-menu ul li a:hover{
+    background-color: #DD0000;
+    color: #fff;
+    transition: .5s;
+}
+.active a {
+    background: red !important;
+    color: #fff !important;
+}
+.b-btn button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background: no-repeat;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    padding: 2px 15px;
+    cursor: pointer;
+}
