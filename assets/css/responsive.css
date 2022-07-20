@@ -1,0 +1,64 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Banner Responsive Style */
+    .container {
+        width: 700px;
+        margin: auto;
+    }
+    .banner-right h2 {
+        font-size: 36px;
+        line-height: 40px;
+        color: #FFFFFF;
+        margin-bottom: 0;
+        margin-top: 40px
+    }
+    .banner {
+        padding-left: 50px;
+        padding-right: 10px;
+        margin-top: 30px;
+    }
+    .banner-left img {
+        width: 100%;
+        height: auto;
+        margin-bottom: -74px;
+    }
+    .banner-right p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    button.btn {
+        width: 132px;
+        height: 34px;
+        background: #DD0000;
+        border-radius: 5px;
+        color: #FFFFFF;
+        font-size: 18px;
+    }
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+ 
+}

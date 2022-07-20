@@ -1,0 +1,63 @@
+/* Google Font link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* Comment CSS */
+.container{
+    width: 1320px;
+    margin: auto;
+}
+/*------------------
+   Banner Style
+ ------------------- */
+ .banner {
+    background: #161616;
+    border-radius: 30px;
+    display: grid;
+    padding-left: 106px;
+    padding-right: 35px;
+    margin-top: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: end;
+}
+.banner-right {
+    margin-bottom: 100px;
+}
+.banner-right h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    margin-top: 110px;
+}
+.banner-right p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+button.btn {
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.banner-left img {
+    width: 100%;
+    height: 584px;
+    margin-bottom: -38px;
+}
+
